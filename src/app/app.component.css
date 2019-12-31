@@ -1,0 +1,9 @@
+p {
+  font-family: Lato;
+}
+.right-brdr {
+  border-right: 1px solid gray;
+}
+.right-brdr nav a {
+  display: block;
+}
