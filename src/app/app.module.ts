@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { RouterModule } from '@angular/router';
 import { SharedService } from './shared.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { LogsComponent } from './logs/logs.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule, RouterModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, DashboardComponent, LogsComponent ],
   bootstrap:    [ AppComponent ],
   providers: [SharedService]
 })
